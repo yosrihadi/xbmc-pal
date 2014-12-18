@@ -11,7 +11,11 @@
   <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">yosri hadi project</summary>
+<<<<<<< HEAD
     <summary lang="ar">Ì”—Ì Õ«œÌ</summary>
+=======
+    <summary lang="ar">Ÿäÿ≥ÿ±Ÿä ÿ≠ÿßÿØŸä</summary>
+>>>>>>> origin/master
     <description lang="en">Watch Live TV channels from Arabia and all over the world.
 
 The addon page and free download:
@@ -19,12 +23,21 @@ The addon page and free download:
 
 More addons on The Palestine repo:
 [COLOR blue]https://github.com/yosir/xbmc-pal[/COLOR]</description>
+<<<<<<< HEAD
     <description lang="ar">„‘«Âœ… »À „»«‘—.
 
 ’›Õ… «· Õ„Ì·
 [COLOR blue]https://www.arbgiants.com/[/COLOR]
 
 «÷«›«  „„Ì“…:
+=======
+    <description lang="ar">ŸÖÿ¥ÿßŸáÿØÿ© ÿ®ÿ´ ŸÖÿ®ÿßÿ¥ÿ±.
+
+ÿµŸÅÿ≠ÿ© ÿßŸÑÿ™ÿ≠ŸÖŸäŸÑ
+[COLOR blue]https://www.arbgiants.com/[/COLOR]
+
+ÿßÿ∂ÿßŸÅÿßÿ™ ŸÖŸÖŸäÿ≤ÿ©:
+>>>>>>> origin/master
 [COLOR blue]https://github.com/yosir/xbmc-pal[/COLOR]</description>
     <platform>all</platform>
   </extension>
@@ -44,4 +57,8 @@ More addons on The Palestine repo:
     </extension>
 </addon>
 
+<<<<<<< HEAD
 </addons>
+=======
+</addons>
+>>>>>>> origin/master
