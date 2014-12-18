@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="plugin.video.pallive" name="PalLIVE" version="1.0.0" provider-name="Yosri, Hadi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">yosri hadi project</summary>
+    <summary lang="ar">Ì”—Ì Õ«œÌ</summary>
+    <description lang="en">Watch Live TV channels from Arabia and all over the world.
+
+The addon page and free download:
+[COLOR blue]http://www.arbgiants.com/[/COLOR]
+
+More addons on The Palestine repo:
+[COLOR blue]https://github.com/yosir/xbmc-pal[/COLOR]</description>
+    <description lang="ar">„‘«Âœ… »À „»«‘—.
+
+’›Õ… «· Õ„Ì·
+[COLOR blue]https://www.arbgiants.com/[/COLOR]
+
+«÷«›«  „„Ì“…:
+[COLOR blue]https://github.com/yosir/xbmc-pal[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
 <addon id="repository.xbmc-pal" name=".[COLOR blue]XBMC palestinei [/COLOR][COLOR white] Streaming Sites[/COLOR]" version="1.5.0" provider-name="cubicle-vdo">
     <extension point="xbmc.addon.repository" name="XBMC palestinei streaming repo for streaming sites">
         <info compressed="false">https://raw.github.com/yosir/xbmc-pal/xbmc-pal/master/addons.xml</info>
-        <checksum>https://raw.github.com/yosir/xbmc-pal/xbmc-israel/master/addons.xml.md5</checksum>
+        <checksum>https://raw.github.com/yosir/xbmc-pal/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.github.com/yosir/xbmc-pal/master/repo</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -11,3 +43,5 @@
         <platform>all</platform>
     </extension>
 </addon>
+
+</addons>
