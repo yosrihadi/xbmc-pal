@@ -4,7 +4,7 @@ import sys, os, time, datetime, re
 import urllib, json
 import repoCheck
 
-AddonID = "plugin.video.israelive"
+AddonID = "plugin.video.pallive"
 Addon = xbmcaddon.Addon(AddonID)
 localizedString = Addon.getLocalizedString
 

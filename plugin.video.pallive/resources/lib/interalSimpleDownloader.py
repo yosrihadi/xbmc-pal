@@ -26,7 +26,7 @@ import hmac
 import hashlib
 import base64
 
-addon_id = 'plugin.video.israelive'
+addon_id = 'plugin.video.pallive'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 __addonname__   = selfAddon.getAddonInfo('name')
 __icon__        = selfAddon.getAddonInfo('icon')

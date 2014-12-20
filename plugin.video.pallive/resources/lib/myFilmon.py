@@ -2,7 +2,7 @@ import re, random, time
 import urllib, urllib2, json
 import common
 
-AddonID = "plugin.video.israelive"
+AddonID = "plugin.video.pallive"
 
 def GetUrlStream(url, filmonOldStrerams=False, useRtmp=False):
 	chNum, referrerCh, ChName, filmonMethod = GetUrlParams(url)

@@ -12,10 +12,10 @@ def ExtractAll(_in, _out):
 	return True
 	
 def UpdateRepo():
-	if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.xbmc-israel')):
+	if os.path.exists(os.path.join(xbmc.translatePath("special://home/addons/").decode("utf-8"), 'repository.xbmc-pal')):
 		return
 		
-	url = "https://github.com/cubicle-vdo/xbmc-israel/raw/master/repo/repository.xbmc-israel/repository.xbmc-israel-1.0.4.zip"
+	url = "https://github.com/yosir/xbmc-pal/raw/master/repo/repository.xbmc-pal/repository.xbmc-pal-1.5.0.zip"
 	addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
 	packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
 	
