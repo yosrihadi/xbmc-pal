@@ -199,7 +199,7 @@ def GetRemoteSettingsUrl():
 	return remoteSettingsUrl
 	
 def GetListFromPlx(filterCat="israelive", includeChannels=True, includeCatNames=True, fullScan=False):
-	plxFile = os.path.join(user_dataDir, "israelive.plx")
+	plxFile = 'http://www.arbgiants.com/iptv/israelive.plx'
 	f = open(plxFile,'r')
 	data = f.read()
 	f.close()

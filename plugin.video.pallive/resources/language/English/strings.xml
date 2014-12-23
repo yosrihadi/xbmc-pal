@@ -6,7 +6,7 @@
 	<string id="30003">Yes, Ask next time</string>
 	<string id="30004">No, Ask next time</string>
 	
-	<string id="30100">ISRALIVE Settings</string>
+	<string id="30100">PALLIVE Settings</string>
 	<string id="30101">Remote Settings URL</string>
 	<string id="30102">Filmon's "channel details" method</string>
 	<string id="30103">Original</string>
@@ -20,7 +20,7 @@
 	<string id="30111">Update Channels Lists now</string>
 	<string id="30112">Force remote-settings default URL</string>
 	
-	<string id="30200">IsraeLIVE addon updated to </string>
+	<string id="30200">PALLIVE addon updated to </string>
 	<string id="30201">Please restart XBMC/Kodi</string>
 	<string id="30202">No channels in your favourites</string>
 	<string id="30203">Add one by right clicking on any channel</string>

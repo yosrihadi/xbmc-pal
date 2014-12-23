@@ -32,14 +32,14 @@ if not os.path.exists(user_dataDir):
 	os.makedirs(user_dataDir)
 
 remoteSettingsUrl = common.GetRemoteSettingsUrl()
-remoteSettingsFile = os.path.join(user_dataDir, "remoteSettings.txt")
-plxFile = os.path.join(user_dataDir, "pallive.plx")
-globalGuideFile = os.path.join(user_dataDir, "guide.txt")
-filmonGuideFile = os.path.join(user_dataDir, 'filmonGuide.txt')
-fullGuideFile = os.path.join(user_dataDir, 'fullGuide.txt')
-iptvChannelsFile = os.path.join(user_dataDir, "iptv.m3u")
-iptvGuideFile = os.path.join(user_dataDir, "guide.xml")
-iptvLogosDir = os.path.join(user_dataDir, "logos")
+remoteSettingsFile = 'http://www.arbgiants.com/iptv/remoteSettings.txt'
+plxFile = 'http://www.arbgiants.com/iptv/israelive.plx'
+globalGuideFile = 'http://www.arbgiants.com/iptv/guide.txt'
+filmonGuideFile = http://www.arbgiants.com/iptv/filmonGuide.txt'
+fullGuideFile = 'http://www.arbgiants.com/iptv/fullGuide.txt'
+iptvChannelsFile = 'http://www.arbgiants.com/iptv/iptv.m3u'
+iptvGuideFile = 'http://www.arbgiants.com/iptv/guide.xml'
+iptvLogosDir = 'http://www.arbgiants.com/iptv/logos'
 
 checkInterval = 12
 	
