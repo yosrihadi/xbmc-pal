@@ -16,7 +16,6 @@ The addon page and free download:
 [COLOR blue]http://www.arbgiants.com/[/COLOR]
 The addon Youtube Channel 
 [COLOR red]https://www.youtube.com/user/3almyat[/COLOR]
-
 More addons on The Pal repo: IsComming Soon
 </description>
     <description lang="ar">مشاهدة قنوات عربية واجنبية
@@ -27,8 +26,8 @@ More addons on The Pal repo: IsComming Soon
   </extension>
 </addon>
 
-<addon id="repository.xbmc-pal" name="[COLOR blue]XBMC palestine [/COLOR][COLOR white] Streaming Sites[/COLOR]" version="1.5.0" provider-name="Yosri Hadi">
-    <extension point="xbmc.addon.repository" name="XBMC palestinei streaming repo for streaming sites">
+<addon id="repository.xbmc-pal" name=".[COLOR blue]XBMC palestine [/COLOR][COLOR white] Streaming Sites[/COLOR]" version="1.5.0" provider-name="Yosri Hadi">
+    <extension point="xbmc.addon.repository" name="XBMC palestine streaming repo for streaming sites">
         <info compressed="false">https://raw.githubusercontent.com/yosir/xbmc-pal/master/addon.xml</info>
         <checksum>https://raw.github.com/yosir/xbmc-pal/master/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/yosir/xbmc-pal/raw/master/repo/repository.xbmc-pal/repository.xbmc-pal-1.5.0.zip</datadir>
