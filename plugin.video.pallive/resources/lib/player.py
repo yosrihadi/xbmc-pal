@@ -29,7 +29,7 @@ def GetFilmonUrl(channelNum):
 	import xbmcaddon
 	import myFilmon
 	
-	AddonID = "plugin.video.israelive"
+	AddonID = "plugin.video.pallive"
 	Addon = xbmcaddon.Addon(AddonID)
 	StreramsMethod = Addon.getSetting("StreramsMethod")
 	filmonOldStrerams = StreramsMethod == "0"

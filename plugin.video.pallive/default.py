@@ -41,7 +41,7 @@ if remoteSettings == []:
 	xbmc.executebuiltin('Notification({0}, Cannot load settings, {1}, {2})'.format(AddonName, 5000, icon))
 	sys.exit()
 
-plxFile = os.path.join(user_dataDir, "israelive.plx")
+plxFile = os.path.join(user_dataDir, "pallive.plx")
 if not os.path.isfile(plxFile):
 	common.UpdatePlx(remoteSettings["plxUrl"], plxFile)
 
@@ -60,7 +60,7 @@ def CATEGORIES():
 	repoCheck.UpdateRepo()
 	common.CheckNewVersion()
 	addDir("[COLOR green][B][{0}][/B][/COLOR]".format(localizedString(30000).encode('utf-8')),'favorits',16,'http://cdn3.tnwcdn.com/files/2010/07/bright_yellow_star.png','')
-	ListLive("israelive", "http://3.bp.blogspot.com/-vVfHI8TbKA4/UBAbrrZay0I/AAAAAAAABRM/dPFgXAnF8Sg/s1600/retro-tv-icon.jpg")
+	ListLive("pallive", "http://3.bp.blogspot.com/-vVfHI8TbKA4/UBAbrrZay0I/AAAAAAAABRM/dPFgXAnF8Sg/s1600/retro-tv-icon.jpg")
 	SetViewMode()
 
 def update_view(url):
@@ -433,18 +433,18 @@ def addDir(name, url, mode, iconimage, description, isFolder=True, channelName=N
 
 		if mode == 3:
 			items.append(('TV Guide', 'XBMC.Container.Update({0}?url={1}&mode=9&iconimage={2}&displayname={3})'.format(sys.argv[0], urllib.quote_plus(url), iconimage, channelName)))
-			items.append(('Add to israelive-favorites', 'XBMC.RunPlugin({0}?url={1}&mode=17)'.format(sys.argv[0], listIndex)))
+			items.append(('Add to pallive-favorites', 'XBMC.RunPlugin({0}?url={1}&mode=17)'.format(sys.argv[0], listIndex)))
 		elif mode == 4:
 			items.append(('TV Guide', 'XBMC.Container.Update({0}?url={1}&mode=9&iconimage={2}&displayname={3})'.format(sys.argv[0], urllib.quote_plus(url), iconimage, channelName)))
-			items.append(('Remove from israelive-favorites', "XBMC.RunPlugin({0}?url={1}&mode=18)".format(sys.argv[0], urllib.quote_plus(url))))
+			items.append(('Remove from pallive-favorites', "XBMC.RunPlugin({0}?url={1}&mode=18)".format(sys.argv[0], urllib.quote_plus(url))))
 		elif mode == 10 or mode == 12 or mode == 14 or mode==40:
 			if isTvGuide:
 				items.append(('TV Guide', 'XBMC.Container.Update({0}?url={1}&mode=5&iconimage={2}&name={3})'.format(sys.argv[0], urllib.quote_plus(url), iconimage, channelName)))
-			items.append(('Add to israelive-favorites', 'XBMC.RunPlugin({0}?url={1}&mode=17)'.format(sys.argv[0], listIndex)))
+			items.append(('Add to pallive-favorites', 'XBMC.RunPlugin({0}?url={1}&mode=17)'.format(sys.argv[0], listIndex)))
 		elif mode == 11 or mode == 13 or mode == 15 or mode==41:
 			if isTvGuide:
 				items.append(('TV Guide', 'XBMC.Container.Update({0}?url={1}&mode=5&iconimage={2}&name={3})'.format(sys.argv[0], urllib.quote_plus(url), iconimage, channelName)))
-			items.append(('Remove from israelive-favorites', 'XBMC.RunPlugin({0}?url={1}&mode=18)'.format(sys.argv[0], urllib.quote_plus(url))))
+			items.append(('Remove from pallive-favorites', 'XBMC.RunPlugin({0}?url={1}&mode=18)'.format(sys.argv[0], urllib.quote_plus(url))))
 		
 
 		liz.addContextMenuItems(items = items)

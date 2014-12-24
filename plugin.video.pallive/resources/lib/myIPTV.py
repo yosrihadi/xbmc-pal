@@ -17,7 +17,7 @@ def makeIPTVlist(iptvFile, portNum):
 	for item in list:
 		url = item['url']
 		tvg_id = item['name']
-		if url.find('plugin.video.israelive') > 0:
+		if url.find('plugin.video.pallive') > 0:
 			urlParams = url[url.find('?'):]
 			url = "http://localhost:{0}/{1}".format(portNum, urlParams)
 		elif url.find('plugin.video.f4mTester') > 0:

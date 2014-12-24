@@ -11,7 +11,7 @@ def downloader_is(url, name, showProgress=True):
 	import downloader, extract
 
 	addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
-	packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
+	packageFile = os.path.join(addonsDir, 'packages', 'pal.zip')
 
 	if showProgress:
 		dp = xbmcgui.DialogProgress()
@@ -108,13 +108,13 @@ def WriteList(filname, list):
 	return success
 	
 def GetUpdatedList(file, url):
-	UpdateFile(file, Decode(url))
+	UpdateFile(file, url)
 	return ReadList(file)
 	
 def UpdateZipedFile(file, url):
 	import extract
 	zipFile = "{0}.zip".format(file[:file.rfind('.')])
-	if UpdateFile(zipFile, Decode(url), zip=True):
+	if UpdateFile(zipFile, url, zip=True):
 		user_dataDir = xbmc.translatePath(Addon.getAddonInfo("profile")).decode("utf-8")
 		extract.all(zipFile, user_dataDir)
 		try:
@@ -135,7 +135,7 @@ def GetEncodeString(str):
 def UpdatePlx(url, file, refreshInterval=0):
 	isListUpdated = False
 	if isFileOld(file, refreshInterval):
-		isListUpdated = UpdateFile(file, Decode(url))
+		isListUpdated = UpdateFile(file, url)
 
 	return isListUpdated
 		
@@ -198,14 +198,14 @@ def GetRemoteSettingsUrl():
 			Addon.setSetting("remoteSettingsUrl", remoteSettingsUrl)
 	return remoteSettingsUrl
 	
-def GetListFromPlx(filterCat="israelive", includeChannels=True, includeCatNames=True, fullScan=False):
-	plxFile = 'http://www.arbgiants.com/iptv/israelive.plx'
+def GetListFromPlx(filterCat="pallive", includeChannels=True, includeCatNames=True, fullScan=False):
+	plxFile = os.path.join(user_dataDir, "pallive.plx")
 	f = open(plxFile,'r')
 	data = f.read()
 	f.close()
 	
 	matches = re.compile('^type(.+?)#$',re.I+re.M+re.U+re.S).findall(data)
-	categories = ["israelive"]
+	categories = ["pallive"]
 	list = []
 	for match in matches:
 		item=re.compile('^(.*?)=(.*?)$',re.I+re.M+re.U+re.S).findall("type{0}".format(match))
