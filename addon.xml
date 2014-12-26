@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.pallive" name="PalLIVE" version="3.0.0" provider-name="Yosri, Hadi">
+<addon id="plugin.video.pallive" name="PalLIVE" version="3.0.0" provider-name="Yosri Hadi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -17,6 +17,7 @@ The addon page and free download:
 [COLOR blue]http://www.arbgiants.com/[/COLOR]
 The addon Youtube Channel 
 [COLOR red]https://www.youtube.com/user/3almyat[/COLOR]
+
 More addons on The Pal repo: IsComming Soon
 </description>
     <description lang="ar">مشاهدة قنوات عربية واجنبية
