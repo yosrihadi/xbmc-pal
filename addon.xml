@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.pallive" name="PalLIVE" version="5.0.0" provider-name="Yosri Hadi">
+<addon id="plugin.video.pallive" name="PalLIVE" version="5.1.0" provider-name="Yosri, Hadi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,20 +9,9 @@
   </extension>
   <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Yosri hadi</summary>
-    <summary lang="ar">يسري حادي الفلسطيني</summary>
-    <description lang="en">Watch Live TV channels from Arabic and all over the world.
-The addon page and free download:
-[COLOR blue]http://www.arbgiants.com/[/COLOR]
-The addon Youtube Channel 
-[COLOR red]https://www.youtube.com/user/3almyat[/COLOR]
-More addons on The Pal repo: IsComming Soon
-</description>
-    <description lang="ar">مشاهدة قنوات عربية واجنبية
-يمكنك التحميل الاضافة مجانية
-[COLOR blue]http://www.arbgiants.com/[/COLOR]
-</description>
-    <platform>all</platform>
+    <summary lang="en">yosrihadi's project</summary>
+        <description lang="en">Watch Live TV channels from Arabian and all over the world.[CR][CR]The addon page and free download:[CR][COLOR blue]https://www.facebook.com/3almyat[/COLOR][CR][CR]</description>
+      <platform>all</platform>
   </extension>
 </addon>
 

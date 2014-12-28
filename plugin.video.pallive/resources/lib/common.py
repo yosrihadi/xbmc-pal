@@ -50,7 +50,7 @@ def UpdateFile(file, url, zip=False):
 	try:
 		req = urllib2.Request(url)
 		req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0')
-		req.add_header('Referer', 'http://www.arbgiants.com/')
+		req.add_header('Referer', 'http://www.IsraeLIVE.org/')
 		response = urllib2.urlopen(req)
 		headers = response.info()
 		etag = headers.getheader("ETag")
@@ -108,13 +108,13 @@ def WriteList(filname, list):
 	return success
 	
 def GetUpdatedList(file, url):
-	UpdateFile(file, url)
+	UpdateFile(file, Decode(url))
 	return ReadList(file)
 	
 def UpdateZipedFile(file, url):
 	import extract
 	zipFile = "{0}.zip".format(file[:file.rfind('.')])
-	if UpdateFile(zipFile, url, zip=True):
+	if UpdateFile(zipFile, Decode(url), zip=True):
 		user_dataDir = xbmc.translatePath(Addon.getAddonInfo("profile")).decode("utf-8")
 		extract.all(zipFile, user_dataDir)
 		try:
@@ -135,11 +135,11 @@ def GetEncodeString(str):
 def UpdatePlx(url, file, refreshInterval=0):
 	isListUpdated = False
 	if isFileOld(file, refreshInterval):
-		isListUpdated = UpdateFile(file, url)
+		isListUpdated = UpdateFile(file, Decode(url))
 
 	return isListUpdated
 		
-def OKmsg(title, line1, line2 = None, line3 = None):
+def OKmsg(title, line1, line2 = "", line3 = ""):
 	dlg = xbmcgui.Dialog()
 	dlg.ok(title, line1, line2, line3)
 	
