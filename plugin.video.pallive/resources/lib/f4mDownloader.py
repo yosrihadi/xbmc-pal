@@ -21,7 +21,7 @@ from hashlib import sha256
 import cookielib
 #import youtube_dl
 #from youtube_dl.utils import *
-addon_id = 'plugin.video.israelive'
+addon_id = 'plugin.video.pallive'
 selfAddon = xbmcaddon.Addon(id=addon_id)
 __addonname__   = selfAddon.getAddonInfo('name')
 __icon__        = selfAddon.getAddonInfo('icon')
