@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.pallive" name="PalLIVE" version="3.0.0" provider-name="Yosri Hadi">
+<addon id="plugin.video.pallive" name="PalLIVE" version="5.0.0" provider-name="Yosri Hadi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -22,22 +22,6 @@ More addons on The Pal repo: IsComming Soon
 يمكنك التحميل الاضافة مجانية
 [COLOR blue]http://www.arbgiants.com/[/COLOR]
 </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.video.israelive" name="IsraeLIVE" version="3.0.1" provider-name="Benny123, Avigdor">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Benny123's project</summary>
-    <summary lang="he">הפרויקט של Benny123</summary>
-    <description lang="en">Watch Live TV channels from Israel and all over the world.[CR][CR]The addon page and free download:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]More addons on The Israeli repo:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
-    <description lang="he">צפיה בשידורי טלויזיה חיים מישראל והעולם.[CR][CR]דף הסברים והורדה בחינם:[CR][COLOR blue]http://www.hometheater.co.il/vt219048.html[/COLOR][CR][CR]תוספים נוספים במקור הישראלי:[CR][COLOR blue]https://github.com/cubicle-vdo/xbmc-israel[/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
