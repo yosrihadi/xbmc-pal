@@ -41,7 +41,7 @@ if remoteSettings == []:
 	xbmc.executebuiltin('Notification({0}, Cannot load settings, {1}, {2})'.format(AddonName, 5000, icon))
 	sys.exit()
 
-plxFile = os.path.join(user_dataDir, "israelive.plx")
+plxFile = os.path.join(user_dataDir, "pallive.plx")
 if not os.path.isfile(plxFile):
 	common.UpdatePlx(remoteSettings["plxUrl"], plxFile)
 
@@ -60,7 +60,7 @@ def CATEGORIES():
 	repoCheck.UpdateRepo()
 	common.CheckNewVersion()
 	addDir("[COLOR {0}][B][{1}][/B][/COLOR]".format(Addon.getSetting("favColor"), localizedString(30000).encode('utf-8')),'favorits',16,'http://cdn3.tnwcdn.com/files/2010/07/bright_yellow_star.png','', channelName=localizedString(30000).encode('utf-8'))
-	ListLive("israelive", "http://3.bp.blogspot.com/-vVfHI8TbKA4/UBAbrrZay0I/AAAAAAAABRM/dPFgXAnF8Sg/s1600/retro-tv-icon.jpg")
+	ListLive("pallive", "http://3.bp.blogspot.com/-vVfHI8TbKA4/UBAbrrZay0I/AAAAAAAABRM/dPFgXAnF8Sg/s1600/retro-tv-icon.jpg")
 	SetViewMode()
 
 def update_view(url):
