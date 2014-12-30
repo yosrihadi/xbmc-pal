@@ -198,14 +198,14 @@ def GetRemoteSettingsUrl():
 			Addon.setSetting("remoteSettingsUrl", remoteSettingsUrl)
 	return remoteSettingsUrl
 	
-def GetListFromPlx(filterCat="israelive", includeChannels=True, includeCatNames=True, fullScan=False):
-	plxFile = os.path.join(user_dataDir, "israelive.plx")
+def GetListFromPlx(filterCat="pallive", includeChannels=True, includeCatNames=True, fullScan=False):
+	plxFile = os.path.join(user_dataDir, "pallive.plx")
 	f = open(plxFile,'r')
 	data = f.read()
 	f.close()
 	
 	matches = re.compile('^type(.+?)#$',re.I+re.M+re.U+re.S).findall(data)
-	categories = ["israelive"]
+	categories = ["pallive"]
 	list = []
 	for match in matches:
 		item=re.compile('^(.*?)=(.*?)$',re.I+re.M+re.U+re.S).findall("type{0}".format(match))
