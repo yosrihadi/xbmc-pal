@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # *
 # *  Copyright (C) 2012-2013 Garrett Brown
 # *  Copyright (C) 2010      j48antialias
@@ -51,22 +50,17 @@ class Generator:
     def _generate_addons_file( self ):
         # addon list
         addons = os.listdir( "." )
-        
-        excludedFolders = {'.svn':'.svn','.git':'.git','repo': 'repo', 'plugin.video.moviexil': 'plugin.video.moviexil',
-                            'plugin.video.themarker.video':'plugin.video.themarker.video'
-        
-        }
         # final addons text
         addons_xml = u("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<addons>\n")
         # loop thru and add each addons addon.xml file
         for addon in addons:
             try:
                 # skip any file or .svn folder or .git folder
-                if ( not os.path.isdir( addon ) or excludedFolders.has_key(addon)): continue
+                if ( not os.path.isdir( addon ) or addon == ".svn" or addon == ".git" ): continue
                 # create path
                 _path = os.path.join( addon, "addon.xml" )
                 # split lines for stripping
-                xml_lines = open( _path, "r" ).read().splitlines()
+                xml_lines = open( _path, "r" , encoding="UTF-8").read().splitlines()
                 # new addon
                 addon_xml = ""
                 # loop thru cleaning each line
