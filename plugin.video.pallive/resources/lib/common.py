@@ -50,7 +50,7 @@ def UpdateFile(file, url, zip=False):
 	try:
 		req = urllib2.Request(url)
 		req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0')
-		req.add_header('Referer', 'http://arbgiants.com/')
+		req.add_header('Referer', 'http://www.IsraeLIVE.org/')
 		response = urllib2.urlopen(req)
 		headers = response.info()
 		etag = headers.getheader("ETag")
@@ -198,14 +198,14 @@ def GetRemoteSettingsUrl():
 			Addon.setSetting("remoteSettingsUrl", remoteSettingsUrl)
 	return remoteSettingsUrl
 	
-def GetListFromPlx(filterCat="pallive", includeChannels=True, includeCatNames=True, fullScan=False):
-	plxFile = os.path.join(user_dataDir, "pallive.plx")
+def GetListFromPlx(filterCat="israelive", includeChannels=True, includeCatNames=True, fullScan=False):
+	plxFile = os.path.join(user_dataDir, "israelive.plx")
 	f = open(plxFile,'r')
 	data = f.read()
 	f.close()
 	
 	matches = re.compile('^type(.+?)#$',re.I+re.M+re.U+re.S).findall(data)
-	categories = ["pallive"]
+	categories = ["israelive"]
 	list = []
 	for match in matches:
 		item=re.compile('^(.*?)=(.*?)$',re.I+re.M+re.U+re.S).findall("type{0}".format(match))

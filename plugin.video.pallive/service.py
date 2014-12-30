@@ -33,7 +33,7 @@ if not os.path.exists(user_dataDir):
 
 remoteSettingsUrl = common.GetRemoteSettingsUrl()
 remoteSettingsFile = os.path.join(user_dataDir, "remoteSettings.txt")
-plxFile = os.path.join(user_dataDir, "pallive.plx")
+plxFile = os.path.join(user_dataDir, "israelive.plx")
 globalGuideFile = os.path.join(user_dataDir, "guide.txt")
 filmonGuideFile = os.path.join(user_dataDir, 'filmonGuide.txt')
 fullGuideFile = os.path.join(user_dataDir, 'fullGuide.txt')
