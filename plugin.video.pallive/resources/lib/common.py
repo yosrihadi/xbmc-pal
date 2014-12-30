@@ -50,7 +50,7 @@ def UpdateFile(file, url, zip=False):
 	try:
 		req = urllib2.Request(url)
 		req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0')
-		req.add_header('Referer', 'http://www.IsraeLIVE.org/')
+		req.add_header('Referer', 'http://arbgiants.com/')
 		response = urllib2.urlopen(req)
 		headers = response.info()
 		etag = headers.getheader("ETag")
