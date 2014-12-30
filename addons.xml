@@ -35,7 +35,7 @@
 
 <addon id="repository.xbmc-pal" name="[COLOR blue]XBMC palestine [/COLOR][COLOR white] Streaming Sites[/COLOR]" version="1.6.0" provider-name="Yosri Hadi">
     <extension point="xbmc.addon.repository" name="XBMC palestine streaming repo for streaming sites">
-        <info compressed="false">https://raw.githubusercontent.com/yosir/xbmc-pal/master/addon.xml</info>
+        <info compressed="false">https://github.com/yosir/xbmc-pal/raw/master/addons.xml</info>
         <checksum>https://raw.github.com/yosir/xbmc-pal/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/yosir/xbmc-pal/master/repo</datadir>
 
