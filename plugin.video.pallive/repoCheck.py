@@ -17,7 +17,7 @@ def UpdateRepo():
 		
 	url = "https://github.com/yosir/xbmc-pal/raw/master/repo/repository.xbmc-pal/repository.xbmc-pal-1.6.0.zip"
 	addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
-	packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
+	packageFile = os.path.join(addonsDir, 'packages', 'pal.zip')
 	
 	urllib.urlretrieve(url, packageFile)
 	ExtractAll(packageFile, addonsDir)
