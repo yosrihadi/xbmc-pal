@@ -11,7 +11,7 @@ def downloader_is(url, name, showProgress=True):
 	import downloader, extract
 
 	addonsDir = xbmc.translatePath(os.path.join('special://home', 'addons')).decode("utf-8")
-	packageFile = os.path.join(addonsDir, 'packages', 'pal.zip')
+	packageFile = os.path.join(addonsDir, 'packages', 'isr.zip')
 
 	if showProgress:
 		dp = xbmcgui.DialogProgress()
