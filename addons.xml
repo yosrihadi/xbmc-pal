@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.pallive" name="PALLIVE" version="5.2.0" provider-name="Yosri  Hadi">
+<addon id="plugin.video.pallive" name="PALLIVE" version="5.5.0" provider-name="Yosri  Hadi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -10,7 +10,7 @@
   <extension point="xbmc.service" library="service.py" start="[login|startup]"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Yosri Hadi </summary>
-        <description lang="en">Watch Live TV channels from Arabian and all over the world.[CR][CR]The addon page and free download:[CR][COLOR blue]https://www.facebook.com/3almyat[/COLOR][CR][CR]The addon Channel In YOUTUBE:[CR][COLOR blue]https://www.youtube.com/user/3almyat[/COLOR][CR][CR]The addon WebSite In :[CR][COLOR red]http://arbgiants.com/[/COLOR][CR][CR]</description>
+        <description lang="en">Watch Live TV channels from Arabian and all over the world.[CR][CR]The addon page and free download:[CR][COLOR blue]https://www.facebook.com/3almyat[/COLOR][CR][CR]The addon Channel In YOUTUBE:[CR][COLOR blue]https://www.youtube.com/user/3almyat[/COLOR][CR][CR]The addon WebSite In :[CR][COLOR blue]http://www.3almiat.com[/COLOR][CR][CR]</description>
       <platform>all</platform>
   </extension>
 </addon>
