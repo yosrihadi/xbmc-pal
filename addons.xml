@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.pallive" name="PALLIVE" version="5.5.0" provider-name="Yosri  Hadi">
+<addon id="plugin.video.pallive" name="PALLIVE" version="6.0.0" provider-name="Yosri  Hadi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
