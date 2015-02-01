@@ -1,0 +1,421 @@
+#EXTM3U
+
+#EXTINF:-1,0 -Dubai Racing (UAE)
+
+http://cdnehlsdubairacing2.endavomedia.com/smil:dmilivedubairacing2.smil/playlist.m3u8
+
+#EXTINF:-1,0 -Dubai Sports 3
+
+http://cdnehlsdubaisports3.endavomedia.com/smil:dmilivedubaisports3.smil/BratuMarian.m3u8
+
+#EXTINF:-1,0 -KTV Sport Extra
+
+rtmp://91.140.238.7/rtmplive/rtpencoder/sportextra.sdp
+
+#EXTINF:-1,0 -KTV Sport Plus
+
+rtmp://91.140.238.7/rtmplive/rtpencoder/sportplus.sdp
+
+#EXTINF:-1,0 -MBC Pro Sports 4 (UAE)
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports04/_definst_/live.m3u8
+
+#EXTINF:-1,0 -MBC Sports Pro 1
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports01/_definst_/live.m3u8
+
+#EXTINF:-1,0 -MBC Sports Pro 2
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports02/_definst_/live.m3u8
+
+#EXTINF:-1,0 -MBC Sports Pro 3
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports03/_definst_/live.m3u8
+
+#EXTINF:-1,0 -SaudiSport
+
+http://intigral_live-lh.akamaihd.net/i/DPS2KCCAHLXSHB010514_1@135296/index_1200_av-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1,Al Hayat 2
+
+http://media.islamexplained.com:1935/live/ngrp:ahusa.stream_all/BratuMarian.m3u8
+
+#EXTINF:-1,Al Ikhbaria syria
+
+http://82.137.248.16:1935/Snews/SnewsLive3/BratuMarian.m3u8
+
+#EXTINF:-1,Al Kawthar
+
+http://live.pgmedia.ir:1935/live-35895787/alkosar-1024.sdp/BratuMarian.m3u8?DVR
+
+#EXTINF:-1,Al Kout
+
+rtmp://66.23.237.233:1935/alkout/alkout
+
+#EXTINF:-1,Al Maaref
+
+http://almaareftv.com:1935/live/1/BratuMarian.m3u8
+
+#EXTINF:-1,Al Rasheed TV
+
+http://http.mmp.streamuk.com/live/smil:0_fk07czmb.smil/chunklist_b1228800.m3u8
+
+#EXTINF:-1,Al sahraa2
+
+rtmp://79.134.137.65:1935/liveS2/Sahraa2.stream
+
+#EXTINF:-1,Al Sumaria (Iraq)
+
+rtmp://$OPT:rtmp-raw=rtmp://livestreaming2.itworkscdn.net/sumarialive playpath=live swfUrl=http://www.alsumaria.tv/LiveMedia4/jwplayer.flash.swf live=true timeout=15 pageUrl=http://www.alsumaria.tv/watch-Alsumaria-Live
+
+#EXTINF:-1,Al yawm
+
+http://live.paltoday.tv:1935/paltv/live/gmswf.m3u8
+
+#EXTINF:-1,Alarabiya
+
+http://livestream5.alarabiya.tv/i/live_1@141854/index_1_av-b.m3u8?sd=10&rebase=on
+
+#EXTINF:-1,Albadawiyah
+
+http://94.127.209.149:8080/albadawiyah-800-hdsx/playlist.m3u8
+
+#EXTINF:-1,Albadawiyahtv
+
+http://94.127.209.149:8080/edhakx/playlist.m3u8?DVR
+
+#EXTINF:-1,Albaghdadia
+
+http://albaghdadiahls-i.akamaihd.net/hls/live/218980/albaghdadia-ios/01.m3u8
+
+#EXTINF:-1,Alfady TV
+
+rtmp://stream.truth-voice.net/FadyLive//FadyLive
+
+#EXTINF:-1,Aljazeera Arabic
+
+rtmp://$OPT:rtmp-raw=rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/ playpath=aljazeera_ara_high swfUrl=http://www.watcharab.com/tv/swf/aljazeera.swf pageUrl=http://www.elahmad.com/tv/Webtv/Arabian.htm swfVfy=true live=true timeout=60
+
+#EXTINF:-1,Aljazeera Doc
+
+http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/800kStream.m3u8
+
+#EXTINF:-1,Aljazeera En
+
+http://vizrthlsaje-i.akamaihd.net/hls/live/206524/AJEnglish/2873287_iOS/500.m3u8
+
+#EXTINF:-1,Aljazeera_america
+
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/livestation/ls_lmle/ajam_828.m3u8
+
+#EXTINF:-1,Alrayi mms wmv
+
+mms://62.215.216.130/wmtencoder/alrai350.wmv
+
+#EXTINF:-1,ANN News
+
+rtmp://ns8.indexforce.com/ann/ann
+
+#EXTINF:-1,BBC Arabia
+
+http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
+
+#EXTINF:-1,Dubai TV
+
+http://cdnedvrdubaitv.endavomedia.com/smil:dmilivedubaitvhls.smil/BratuMarian.m3u8
+
+#EXTINF:-1,Edhaktv
+
+http://94.127.209.149:8080/albadawiyah-800-hdsx/playlist.m3u8
+
+#EXTINF:-1,Funoon TV
+
+http://wpc.C56B.edgecastcdn.net/hls-live/20C56B/default/ThompsanECWTV/tsecwatanfunoonmed.m3u8
+
+#EXTINF:-1,i24 News Arabia
+
+http://bcoveliveios-i.akamaihd.net/hls/live/215102/master_arabic/391/master.m3u8
+
+#EXTINF:-1,Iqraatv
+
+http://fl1.viastreaming.net:1935/iqraatv/livestream/BratuMarian.m3u8
+
+#EXTINF:-1,KAS
+
+http://137.135.64.32:1935/kas/kas/gmswf.m3u8
+
+#EXTINF:-1,KTV 2
+
+rtmp://91.140.238.7/rtmplive/rtpencoder/ch2.sdp
+
+#EXTINF:-1,KTV ARABE
+
+rtmp://91.140.238.7/rtmplive/rtpencoder/ch5.sdp
+
+#EXTINF:-1,KTV ETRAA
+
+rtmp://91.140.238.7/rtmplive/rtpencoder/ch4.sdp
+
+#EXTINF:-1,KTV PLUS
+
+rtmp://91.140.238.7/rtmplive/rtpencoder/ch6.sdp
+
+#EXTINF:-1,Kuwait
+
+rtmp://91.140.238.7/rtmplive/rtpencoder/ch1.sdp
+
+#EXTINF:-1,Mbc 2
+
+http://63.237.48.3/ios/MBC2/MBC2.m3u8
+
+#EXTINF:-1,Medine
+
+http://46.245.160.224/medine/medine/gmswf.m3u8
+
+#EXTINF:-1,Mekke
+
+http://46.245.160.224/mekke/mekke/gmswf.m3u8
+
+#EXTINF:-1,Nabaa
+
+rtmp://31.14.40.238:1935/live/Nabaa
+
+#EXTINF:-1,Noor Dubai TV
+
+http://cdnedvrnoordubaitv.endavomedia.com/smil:dmilivenoordubaitvhls.smil/BratuMarian.m3u8
+
+#EXTINF:-1,Pro Sports 1
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports01/_definst_/live.m3u8
+
+#EXTINF:-1,Pro Sports 2
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports02/_definst_/live.m3u8
+
+#EXTINF:-1,Pro Sports 3
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports03/_definst_/live.m3u8
+
+#EXTINF:-1,Pro Sports 4
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports04/_definst_/live.m3u8
+
+#EXTINF:-1,Pro Sports 4 (UAE)
+
+http://mbcprosports03-live.hls.adaptive.level3.net/hls-live/mbc-mbcprosports04/_definst_/live.m3u8
+
+#EXTINF:-1,Quran TV
+
+rtmp://208.75.224.165:1935/map-alquraan/map-alquraan.stream
+
+#EXTINF:-1,Russia Alyaum
+
+http://odna.octoshape.net/f3f5m2v4/cds/ch3_720p/chunklist.m3u8
+
+#EXTINF:-1,Sama Dubai
+
+http://cdnedvrsamadubai.endavomedia.com/smil:dmilivesamadubaihls.smil/BratuMarian.m3u8
+
+#EXTINF:-1,SaudiSport
+
+http://intigral_live-lh.akamaihd.net/i/DPS2KCCAHLXSHB010514_1@135296/index_1200_av-p.m3u8?sd=10&rebase=on
+
+#EXTINF:-1,Sky news arabia
+
+http://skynewsl.skynews.cshls.lldns.net/skynews/skynewsl/skynewsl/skynewsl_800.m3u8
+
+#EXTINF:-1,Syria
+
+http://82.137.248.16:1935/Sat/SatLive2/BratuMarian.m3u8
+
+#EXTINF:-1,Syria Aloula
+
+http://82.137.248.21:1935/Aloula/AloulaLive3/BratuMarian.m3u8
+
+#EXTINF:-1,Syria Drama
+
+http://82.137.248.21:1935/Drama/DramaLive3/BratuMarian.m3u8
+
+#EXTINF:-1,Syria Nour
+
+http://82.137.248.21:1935/Nour/NourLive2/BratuMarian.m3u8
+
+#EXTINF:-1,Tchad
+
+rtmp://tchad.streamakaci.com/tchad/tchad.stream
+
+#EXTINF:-1,Al Baghdadia
+
+http://albaghdadiahls-i.akamaihd.net/hls/live/218980/albaghdadia-ios/01.m3u8
+
+#EXTINF:-1,Al Forat
+
+http://alforatlive.nanocdn.com:1935/live/alforat256/BratuMarian.m3u8
+
+#EXTINF:-1,Al Gharbiya
+
+http://46.165.208.230:1935/samarra/mystream/gmswf.m3u8
+
+#EXTINF:-1,Al Rasheed
+
+http://http.mmp.streamuk.com/live/smil:0_fk07czmb.smil/chunklist_b1228800.m3u8
+
+#EXTINF:-1,AlDyar
+
+http://188.247.93.26:1935/live/aldyar.stream_360p/hassuni.m3u8
+
+#EXTINF:-1,Baghdad tv
+
+http://streamer1.hamuraabi.com:1935/baghdad/live/BratuMarian.m3u8
+
+#EXTINF:-1,Iraqiya
+
+http://212.7.205.5:1935/Iraqia/live/BratuMarian.m3u8
+
+#EXTINF:-1,Iraqiya Sport
+
+http://212.7.205.5:1935/sport/live/BratuMarian.m3u8
+
+#EXTINF:-1,ASRE_EMROZZ
+
+http://63.237.48.3/ios/ASRE_EMROZZ/ASRE_EMROZZ.m3u8
+
+#EXTINF:-1,Bidari
+
+rtsp://bidari.streamwebtown.com/bidaritv
+
+#EXTINF:-1,CHANNEL_ONE
+
+http://63.237.48.3/ios/CHANNEL_ONE_TV/CHANNEL_ONE_TV.m3u8
+
+#EXTINF:-1,IRINN
+
+http://63.237.48.3/ios/IRINN/IRINN.m3u8
+
+#EXTINF:-1,JAME_JAM
+
+http://63.237.48.3/ios/JAME_JAM_TV_NETWORK_1/JAME_JAM_TV_NETWORK_1.m3u8
+
+#EXTINF:-1,MBC2
+
+http://63.237.48.3/ios/MBC2/MBC2.m3u8
+
+#EXTINF:-1,MTC
+
+http://mellitvrtmp.tulix.tv:1935/m-mellitv/m-mellitv.stream/playlist.m3u8
+
+#EXTINF:-1,ONYX HD
+
+http://63.237.48.3/ios/ONYX_HD/ONYX_HD.m3u8
+
+#EXTINF:-1,Pezhvak Show
+
+rtmp://media.mohabat.tv/live_transcoder/_definst_/mp4:mohabat.stream_240p
+
+#EXTINF:-1,PNG
+
+http://63.237.48.3/ios/PNG/PNG.m3u8
+
+#EXTINF:-1,QURAN_TV
+
+http://63.237.48.3/ios/QURAN_TV/QURAN_TV.m3u8
+
+#EXTINF:-1,Sahar TV 1
+
+rtsp://sahar1.live.hypercdn.com/live-35895787/sahartv1-512.sdp
+
+#EXTINF:-1,TAPESH
+
+http://63.237.48.3/ios/TAPESH/TAPESH.m3u8
+
+#EXTINF:-1,VARZESH_TV
+
+http://63.237.48.3/ios/VARZESH_TV/VARZESH_TV.m3u8
+
+#EXTINF:-1,VELAYAT
+
+http://63.237.48.3/ios/VELAYAT_TV/VELAYAT_TV.m3u8
+
+#EXTINF:-1,VOA Persian TV
+
+rtsp://a1278.l211049675.c2110.g.lm.akamaistream.net/D/1278/2110/v0001/reflector:49675
+
+#EXTINF:-1,Voice Of America Persian
+
+rtsp://a1278.l211049675.c2110.g.lm.akamaistream.net/D/1278/2110/v0001/reflector:49675
+
+#EXTINF:-1,AlAoulainter
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_AlAoulainter
+
+#EXTINF:-1,Arriadia
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_Arriadia
+
+#EXTINF:-1,at
+
+rtmp://web.iptv-planet.com:1936/live2/at
+
+#EXTINF:-1,fm
+
+rtmp://web.iptv-planet.com:1936/live2/fm
+
+#EXTINF:-1,h
+
+rtmp://web.iptv-planet.com:1936/live2/h
+
+#EXTINF:-1,iqraa
+
+rtmp://web.iptv-planet.com:1936/live2/iqraa
+
+#EXTINF:-1,mbc1
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_mbc1
+
+#EXTINF:-1,mbc2
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_mbc2
+
+#EXTINF:-1,mbc3
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_mbc3
+
+#EXTINF:-1,mbcaction
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_mbcaction
+
+#EXTINF:-1,mbcmax
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_mbcmax
+
+#EXTINF:-1,n
+
+rtmp://web.iptv-planet.com:1936/live2/n
+
+#EXTINF:-1,nilecinema
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_nilecinema
+
+#EXTINF:-1,pf
+
+rtmp://web.iptv-planet.com:1936/live2/pf
+
+#EXTINF:-1,rc
+
+rtmp://web.iptv-planet.com:1936/live2/rc
+
+#EXTINF:-1,t1
+
+rtmp://web.iptv-planet.com:1936/live2/t1
+
+#EXTINF:-1,t2
+
+rtmp://web.iptv-planet.com:1936/live2/t2
+
+#EXTINF:-1,toyouraljanna
+
+rtmp://web.iptv-planet.com:1936/live2/toyouraljanna
+
+#EXTINF:-1,zeeaflem
+
+rtmp://web.iptv-planet.com:1936/live2/Hi_zeeaflem

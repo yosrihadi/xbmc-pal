@@ -1,0 +1,23 @@
+#EXTM3U
+#EXTINF:-1,[COLOR red]Sport[COLOR white] channels@[COLOR green]Yosri TV[/COLOR]
+yosri hadi
+
+
+#EXTINF:0,bein-1hd
+http://188.165.225.63:8080/bein1.m3u8
+#EXTINF:0,bein-2hd
+http://188.165.225.63:8080/bein2.m3u8
+#EXTINF:0,bein-3hd
+http://188.165.225.63:8080/bein3.m3u8
+#EXTINF:0,bein-4hd
+http://188.165.225.63:8080/bein4.m3u8
+#EXTINF:0,bein-5hd
+http://188.165.225.63:8080/bein5.m3u8
+#EXTINF:0,bein-6hd
+http://188.165.225.63:8080/bein6.m3u8
+#EXTINF:0,bein-7hd
+http://188.165.225.63:8080/bein7.m3u8
+#EXTINF:0,bein-8hd
+http://188.165.225.63:8080/bein8.m3u8
+#EXTINF:0,bein-9hd
+http://188.165.225.63:8080/bein9.m3u8

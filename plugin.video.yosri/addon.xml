@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.yosri"
+       name="Yosri TV"
+       version="3.1.0"
+       provider-name="yosri hadi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+      <summary>Yosri TV</summary>
+    <description>[COLOR red]Free Yosri TV Live is free for all containing different live channels from different countries free for the whole world.[/COLOR]</description>
+    <platform>all</platform>
+  <license> Yosri TV Public License. Version 27, 1 juni 2015</license>
+    <website>http://www.3almiat.com/</website>
+    <source>https://github.com/yosir/xbmc-pal</source>
+
+  </extension>
+</addon>
