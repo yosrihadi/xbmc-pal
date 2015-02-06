@@ -1,3 +1,6 @@
+[B]v6.0.1[/B]
+some update
+- fix for links
 [B]v5.2.1[/B]
 - fix for playing youtube channels from inside the addon.
 - added support for more kind of channels.
