@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Star7arab" name="Star7arab IPTV" version="1.0.2" provider-name="Yosri hadi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Star7arab IPTV - downloaded for free from:
+http://www.star7arab.com</summary>
+    <description lang="en">Star7arab IPTV - downloaded for free from:
+http://www.star7arab.com
+Don't be lazy Add Create and add your list to the group to be shared with everyone</description>
+    <platform>all</platform>
+  </extension>
+</addon>
