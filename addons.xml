@@ -38,7 +38,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.Star7arab" name="Star7arab IPTV" version="2.0.0" provider-name="Yosri hadi">
+<addon id="plugin.video.Star7arab" name="Star7arab IPTV" version="2.0.1" provider-name="Yosri hadi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
