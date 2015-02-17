@@ -25,4 +25,3 @@
 {"url": "http://pastebin.com/raw.php?i=Am5y33WH", "name": "[COLOR yellow]Visit us on our facebook page[/COLOR]"},
 {"url": "http://pastebin.com/raw.php?i=Am5y33WH", "name": "[COLOR yellow]----------------------------------------------------------[/COLOR]"}
 ]
-
