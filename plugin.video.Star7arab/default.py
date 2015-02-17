@@ -38,7 +38,7 @@ def _pbhook(numblocks, blocksize, filesize, url=None,dp=None):
         print "DOWNLOAD CANCELLED" # need to get this part working
         dp.close()
  
-url ='http://yosrihadi.eb2a.com/playLists.txt'
+url ='bit.ly/1L5vOrO'
 localfile = os.path.join(addonDir,"playLists.txt")
 DownloaderClass(url,localfile)
 #end of my code
