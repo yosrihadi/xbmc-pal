@@ -19,5 +19,5 @@
 {"url": "http://pastebin.com/2p1GMkhU", "name": "Peter Forster "},
 {"url": "http://bit.ly/NFSFanKodi", "name": " NFSFan List "},
 {"url": "http://file.xbmcmxtv.com/super.m3u", "name": " iptvxbmc.com List "},
-{"url": "http://bit.ly/cplombia-y-hd", "name": " colombia-y-hd "},
+{"url": "http://bit.ly/cplombia-y-hd", "name": " colombia-y-hd "}
 ]
