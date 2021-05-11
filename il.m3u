@@ -1,13 +1,17 @@
 #EXTM3U
 #EXTINF:-1,jazera
 https://live-hls-web-aja.getaj.net/AJA/01.m3u8
-#EXTINF:-1,AQSA
-https://live-1.linuxway.info/aqsatv/live/tv/chunklist.m3u8
-#EXTINF:-1,kan11
-https://kanlivep2event-i.akamaihd.net/hls/live/747610/747610/source1_4k/chunklist.m3u8
-#EXTINF:-1,ch10hd
-https://reshet-live-il.ctedgecdn.net/13tv-desktop/r13_2400.m3u8
-#EXTINF:-1,reshet13
-https://keshethlslive-i.akamaihd.net/hls/live/512033/CH2LIVE_HIGH/index.m3u8?hdnea=st%3D1582553903%7Eexp%3D1582554803%7Eacl%3D%2F*%7Ehmac%3D3914090c8283b2a0db000d4c8e3a7a0123bd3585ad89bab2b45ece3d02f8fd0f
-#EXTINF:-1,miadeen
-http://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/media.m3u8
+#EXTINF:-1 tvg-id="Channel2News.il" tvg-name="Channel 2 News" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (720p)
+https://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/master.m3u8
+#EXTINF:-1 tvg-id="HalaTV.il" tvg-name="Hala TV" tvg-country="IL" tvg-language="Arabic" tvg-logo="https://i.imgur.com/OzjftEl.png" group-title="",Hala TV (1080p)
+https://gstream4.panet.co.il/edge/halaTV/playlist.m3u8
+#EXTINF:-1 tvg-id="Kan 11-IS" tvg-name="IL: Kan 11" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/vqfNbEU.png" group-title="",Kan 11
+https://kanlivep2event-i.akamaihd.net/hls/live/747610/747610/source1_2.5k/chunklist.m3u8
+#EXTINF:-1 tvg-id="KAN11Israel.il" tvg-name="KAN 11 Israel" tvg-country="IL" tvg-language="" tvg-logo="https://i.imgur.com/SBeqbv0.png" group-title="",KAN 11 Israel (720p)
+https://kanlivep2event-i.akamaihd.net/hls/live/747610/747610/master.m3u8
+#EXTINF:-1 tvg-id="Keshet12.il" tvg-name="Keshet 12" tvg-country="IL" tvg-language="Hebrew" tvg-logo="" group-title="",Keshet 12 (720p)
+https://iptv--iptv.repl.co/Hebrew/keshet_12
+#EXTINF:-1 tvg-id="Reshet 13" tvg-name="Reshet 13" tvg-country="IL" tvg-language="Hebrew" tvg-logo="http://thumbs2.imagebam.com/bc/ad/be/19f5c9784877383.jpg" group-title="",Reshet 13
+https://d18b0e6mopany4.cloudfront.net/out/v1/08bc71cf0a0f4712b6b03c732b0e6d25/index_3.m3u8
+#EXTINF:-1 tvg-id="YnetLive.il" tvg-name="Ynet Live" tvg-country="IL" tvg-language="Hebrew" tvg-logo="" group-title="",Ynet Live (720p)
+https://ynet-lh.akamaihd.net/i/ynet_1@123290/master.m3u8
