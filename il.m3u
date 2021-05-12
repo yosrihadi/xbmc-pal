@@ -1,3 +1,4 @@
+#EXTM3U
 #EXTINF:-1,jazera
 https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 #EXTINF:-1 tvg-id="Channel2News.il" tvg-name="Channel 2 News" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (720p)
@@ -14,5 +15,8 @@ https://iptv--iptv.repl.co/Hebrew/keshet_12
 https://d18b0e6mopany4.cloudfront.net/out/v1/08bc71cf0a0f4712b6b03c732b0e6d25/index_3.m3u8
 #EXTINF:-1 tvg-id="YnetLive.il" tvg-name="Ynet Live" tvg-country="IL" tvg-language="Hebrew" tvg-logo="" group-title="News",Ynet Live (720p)
 https://ynet-lh.akamaihd.net/i/ynet_1@123290/master.m3u8
-#EXTINF:-1,almyaden
+#EXTINF:-1 tvg-id="Almayaden" tvg-name="Almayaden" tvg-country="Pal" tvg-language="Arabic" tvg-logo="https://cdn.almayadeen.tv/images/logo/new-logo-small.png" group-title="News",Almayaden
 https://lmdstrm.cdn.octivid.com/mayadeen-live/smil:mayadeen.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Alaqsa" tvg-name="Alaqsa" tvg-country="Pal" tvg-language="Arabic" tvg-logo="https://aqsatv.ps/style/atyaf/assets/images/logo-footer.png" group-title="News",Alaqsa
+https://live-1.linuxway.info/aqsatv/live/tv/media.m3u8
+
