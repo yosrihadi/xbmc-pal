@@ -1,4 +1,86 @@
 #EXTM3U
+
+#EXTINF:0, fajer1
+http://217.66.230.226:8081/AlfajertvHD1_web/web/chunks.m3u8
+#EXTINF:0, fajer2
+http://vstream2.hadara.ps:8081/AlfajertvHDFull_web/web/chunks.m3u8
+#EXTINF:0, Alfajertv 2
+http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/chunks.m3u8
+
+#EXTINF:0, syria
+https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatv_chunks.m3u8
+#EXTINF:0, sama-tv
+http://stream.sama-tv.net:8080/hls/samatv.m3u8?720
+#EXTINF:0, holy quran
+http://streaming.zaytonatube.com:8080/holyquran/holyquran/index.m3u8
+#EXTINF:0, Nablus live1
+http://streaming.zaytonatube.com:8080/nb/nb/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1,halaramallah
+https://live.halaramallahtv.com:8443/HRamallah-Tv/HalaRamallah/playlist.m3u8
+
+
+#EXTINF:-1,rehan-hd
+http://vstream3.hadara.ps:8081/rehan_web/web/playlist.m3u8
+
+#EXTINF:0, Raya TV 1
+http://htvmada.mada.ps:8888/raya/playlist.m3u8
+
+#EXTINF:0, baladna
+http://htvmada.mada.ps:8888/baladna/tracks-v1a1/mono.m3u8
+#EXTINF:0, albalad
+http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-0,bet lahem tv hd
+http://live.btv2020.com:1935/live/btv/chunklist_w902832477.m3u8
+#EXTINF:-0,bet lahem tv hd2
+http://live.btv2020.com:1935/live/btv2/chunklist_w2056165895.m3u8
+
+
+#EXTINF:-0, newhebron
+https://streaming.zaytonatube.com:8081/newhebron/newheb/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-0, HR tv
+http://vstream3.hadara.ps:8081/hrHD_web/web/chunks.m3u8
+#EXTINF:-0, HR tv2
+http://vstream3.hadara.ps:8081/hrHD1_web/web/chunks.m3u8
+
+
+#EXTINF:-1,marahFM
+http://vstream3.hadara.ps:8081/marahFM_web/web/chunks.m3u8
+#EXTINF:-0, ajyal tv
+http://htvajyal.mada.ps:8888/ajyal/playlist.m3u8
+
+#EXTINF:-1,pnn-tv
+http://217.21.0.15:8081/pnn/pnn/chunks.m3u8
+
+#EXTINF:-0, wattan
+http://217.21.0.15:8081/WattanHD/WattanHD/playlist.m3u8
+#EXTINF:0, Radio orient hd
+http://htvint.mada.ps:8889//orient/tracks-v1a1/mono.m3u8
+#EXTINF:0, Radio 7ala hd
+http://vstream3.hadara.ps:8081/7alafm2020/7alafm2020/playlist.m3u8
+#EXTINF:-0, watar sports
+http://htvmada.mada.ps:8888/orient2/index.m3u8
+
+#EXTINF:-0,aqsatv TV
+https://live-1.linuxway.info/aqsatv/live/tv/chunklist.m3u8
+
+#EXTINF:0, aqsauhf 
+http://live.aqsauhf.ps:1935/usertv/live/tv/playlist.m3u8
+#EXTINF:-0,paltv today
+http://live.paltoday.tv:1935/paltv/live/chunklist_w397693474.m3u8
+
+#EXTINF:-0,palestiniantv
+http://palestiniantv.origin.technostreaming.net:8081/palestiniantv_source/live/chunks.m3u8
+#EXTINF:-0,Musawa
+http://htvpalsat.mada.ps:8888/musawa/tracks-v1a1/mono.m3u8
+#EXTINF:-0,PBC Live
+http://htvpalsat.mada.ps:8888/PBCLive/tracks-v1a1/mono.m3u8
+#EXTINF:-0,NaJah
+https://streaming.najah.edu:8443/hls/AlNajah_hd720/index.m3u8
 #EXTINF:-1,jazera
 https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 #EXTINF:-1 tvg-id="Channel2News.il" tvg-name="Channel 2 News" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (720p)
