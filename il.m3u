@@ -1,104 +1,17 @@
 #EXTM3U
 
-#EXTINF:0, fajer1
-http://217.66.230.226:8081/AlfajertvHD1_web/web/chunks.m3u8
-#EXTINF:0, fajer2
-http://vstream2.hadara.ps:8081/AlfajertvHDFull_web/web/chunks.m3u8
-#EXTINF:0, Alfajertv 2
-http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/chunks.m3u8
-
-#EXTINF:0, syria
-https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatv_chunks.m3u8
-#EXTINF:0, sama-tv
-http://stream.sama-tv.net:8080/hls/samatv.m3u8?720
-#EXTINF:0, holy quran
-http://streaming.zaytonatube.com:8080/holyquran/holyquran/index.m3u8
-#EXTINF:0, Nablus live1
-http://streaming.zaytonatube.com:8080/nb/nb/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1,halaramallah
-https://live.halaramallahtv.com:8443/HRamallah-Tv/HalaRamallah/playlist.m3u8
-
-
-#EXTINF:-1,rehan-hd
-http://vstream3.hadara.ps:8081/rehan_web/web/playlist.m3u8
-
-#EXTINF:0, Raya TV 1
-http://htvmada.mada.ps:8888/raya/playlist.m3u8
-
-#EXTINF:0, baladna
-http://htvmada.mada.ps:8888/baladna/tracks-v1a1/mono.m3u8
-#EXTINF:0, albalad
-http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-0,bet lahem tv hd
-http://live.btv2020.com:1935/live/btv/chunklist_w902832477.m3u8
-#EXTINF:-0,bet lahem tv hd2
-http://live.btv2020.com:1935/live/btv2/chunklist_w2056165895.m3u8
-
-
-#EXTINF:-0, newhebron
-https://streaming.zaytonatube.com:8081/newhebron/newheb/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-0, HR tv
-http://vstream3.hadara.ps:8081/hrHD_web/web/chunks.m3u8
-#EXTINF:-0, HR tv2
-http://vstream3.hadara.ps:8081/hrHD1_web/web/chunks.m3u8
-
-
-#EXTINF:-1,marahFM
-http://vstream3.hadara.ps:8081/marahFM_web/web/chunks.m3u8
-#EXTINF:-0, ajyal tv
-http://htvajyal.mada.ps:8888/ajyal/playlist.m3u8
-
-#EXTINF:-1,pnn-tv
-http://217.21.0.15:8081/pnn/pnn/chunks.m3u8
-
-#EXTINF:-0, wattan
-http://217.21.0.15:8081/WattanHD/WattanHD/playlist.m3u8
-#EXTINF:0, Radio orient hd
-http://htvint.mada.ps:8889//orient/tracks-v1a1/mono.m3u8
-#EXTINF:0, Radio 7ala hd
-http://vstream3.hadara.ps:8081/7alafm2020/7alafm2020/playlist.m3u8
-#EXTINF:-0, watar sports
-http://htvmada.mada.ps:8888/orient2/index.m3u8
 
 #EXTINF:-0,aqsatv TV
-https://live-1.linuxway.info/aqsatv/live/tv/chunklist.m3u8
+https://live01.iflex.ps/Aqsa/tracks-v1a1/mono.m3u8
 
-#EXTINF:0, aqsauhf 
-http://live.aqsauhf.ps:1935/usertv/live/tv/playlist.m3u8
-#EXTINF:-0,paltv today
-http://live.paltoday.tv:1935/paltv/live/chunklist_w397693474.m3u8
+#EXTINF:0, myadin
+https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/chunklist.m3u8
 
-#EXTINF:-0,palestiniantv
-http://palestiniantv.origin.technostreaming.net:8081/palestiniantv_source/live/chunks.m3u8
-#EXTINF:-0,Musawa
-http://htvpalsat.mada.ps:8888/musawa/tracks-v1a1/mono.m3u8
-#EXTINF:-0,PBC Live
-http://htvpalsat.mada.ps:8888/PBCLive/tracks-v1a1/mono.m3u8
-#EXTINF:-0,NaJah
-https://streaming.najah.edu:8443/hls/AlNajah_hd720/index.m3u8
 #EXTINF:-1,jazera
 https://live-hls-web-aja.getaj.net/AJA/01.m3u8
 #EXTINF:-1 tvg-id="Channel2News.il" tvg-name="Channel 2 News" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (720p)
 https://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/master.m3u8
-#EXTINF:-1 tvg-id="HalaTV.il" tvg-name="Hala TV" tvg-country="IL" tvg-language="Arabic" tvg-logo="https://i.imgur.com/OzjftEl.png" group-title="News",Hala TV (1080p)
-https://gstream4.panet.co.il/edge/halaTV/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Kan 11-IS" tvg-name="IL: Kan 11" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/vqfNbEU.png" group-title="News",Kan 11
-https://kanlivep2event-i.akamaihd.net/hls/live/747610/747610/source1_2.5k/chunklist.m3u8
-#EXTINF:-1 tvg-id="KAN11Israel.il" tvg-name="KAN 11 Israel" tvg-country="IL" tvg-language="" tvg-logo="https://i.imgur.com/SBeqbv0.png" group-title="News",KAN 11 Israel (720p)
-https://kanlivep2event-i.akamaihd.net/hls/live/747610/747610/master.m3u8
-#EXTINF:-1 tvg-id="Keshet12.il" tvg-name="Keshet 12" tvg-country="IL" tvg-language="Hebrew" tvg-logo="" group-title="News",Keshet 12 (720p)
-https://iptv--iptv.repl.co/Hebrew/keshet_12
-#EXTINF:-1 tvg-id="Reshet 13" tvg-name="Reshet 13" tvg-country="IL" tvg-language="Hebrew" tvg-logo="http://thumbs2.imagebam.com/bc/ad/be/19f5c9784877383.jpg" group-title="News",Reshet 13
-https://d18b0e6mopany4.cloudfront.net/out/v1/08bc71cf0a0f4712b6b03c732b0e6d25/index_3.m3u8
-#EXTINF:-1 tvg-id="YnetLive.il" tvg-name="Ynet Live" tvg-country="IL" tvg-language="Hebrew" tvg-logo="" group-title="News",Ynet Live (720p)
-https://ynet-lh.akamaihd.net/i/ynet_1@123290/master.m3u8
-#EXTINF:-1 tvg-id="Almayaden" tvg-name="Almayaden" tvg-country="Pal" tvg-language="Arabic" tvg-logo="https://cdn.almayadeen.tv/images/logo/new-logo-small.png" group-title="News",Almayaden
-https://lmdstrm.cdn.octivid.com/mayadeen-live/smil:mayadeen.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Alaqsa" tvg-name="Alaqsa" tvg-country="Pal" tvg-language="Arabic" tvg-logo="https://aqsatv.ps/style/atyaf/assets/images/logo-footer.png" group-title="News",Alaqsa
-https://live-1.linuxway.info/aqsatv/live/tv/media.m3u8
+https://stream-03.dc3.dailymotion.com/sec(RiWEtJG0nU_F5iuiUOWAl7uPcNpHOkY3O61tsk7OrIQ0Mnf77-MESVxL7_E_qHir)/dm/3/x7wjmog/d/live-4.m3u8
 
