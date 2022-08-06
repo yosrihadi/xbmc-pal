@@ -1,17 +1,13 @@
 #EXTM3U
-
-
-#EXTINF:-0,aqsatv TV
-https://live01.iflex.ps/Aqsa/tracks-v1a1/mono.m3u8
-
-#EXTINF:0, myadin
-https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/chunklist.m3u8
-
 #EXTINF:-1,jazera
 https://live-hls-web-aja.getaj.net/AJA/01.m3u8
-#EXTINF:-1 tvg-id="Channel2News.il" tvg-name="Channel 2 News" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (720p)
-https://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/master.m3u8
-
+#EXTINF:-1 tvg-id="Reshet 13" tvg-name="Reshet 13" tvg-country="IL" tvg-language="Hebrew" tvg-logo="http://thumbs2.imagebam.com/bc/ad/be/19f5c9784877383.jpg" group-title="News",Reshet 13
+https://d18b0e6mopany4.cloudfront.net/out/v1/08bc71cf0a0f4712b6b03c732b0e6d25/index_3.m3u8
+#EXTINF:-0,aqsatv TV
+https://live01.iflex.ps/Aqsa/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Almayaden" tvg-name="Almayaden" tvg-country="Pal" tvg-language="Arabic" tvg-logo="https://cdn.almayadeen.tv/images/logo/new-logo-small.png" group-title="News",Almayaden
+https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="Kan 11-IS" tvg-name="IL: Kan 11" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/vqfNbEU.png" group-title="News",Kan 11
 https://stream-03.dc3.dailymotion.com/sec(RiWEtJG0nU_F5iuiUOWAl7uPcNpHOkY3O61tsk7OrIQ0Mnf77-MESVxL7_E_qHir)/dm/3/x7wjmog/d/live-4.m3u8
+
 
